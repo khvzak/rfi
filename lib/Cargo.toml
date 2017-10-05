@@ -1,0 +1,16 @@
+[package]
+name = "rfi"
+version = "0.1.0-dev"
+authors = ["Aleksandr Orlenko <zxteam@gmail.com>"]
+description = """
+Rust Foreign Interface (Rust Integration with other languages).
+
+Work in progress.
+"""
+repository = "https://github.com/khvzak/rfi"
+license = "MIT"
+categories = ["api-bindings"]
+
+[dependencies]
+serde = "1.0"
+serde_json = "1.0"

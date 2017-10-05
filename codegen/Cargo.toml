@@ -1,0 +1,14 @@
+[package]
+name = "rfi_codegen"
+version = "0.1.0-dev"
+authors = ["Aleksandr Orlenko <zxteam@gmail.com>"]
+description = "Code generation for the RFI."
+repository = "https://github.com/khvzak/rfi"
+keywords = ["ffi", "code", "generation"]
+license = "MIT"
+
+[lib]
+plugin = true
+
+[dependencies]
+rfi = { version = "0.1.0-dev", path = "../lib" }
